@@ -11,7 +11,7 @@ from discord import TextChannel
 
 prefix='|'
 bot = commands.Bot(self_bot=True,command_prefix=prefix)
-token = "MzA4MjYwMjY5ODcwNTQ2OTU0.YAUqcQ.JZ1wgmBGb9xSIR4Y2YhrAEo2Sok"
+token = ""
 bot.remove_command('help')
 
 FFMPEG_OPTIONS = {'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5', 'options': '-vn'}
